@@ -1,4 +1,4 @@
-# SpringProyect1 - Base Spring Boot Application
+# SynthAISpring - Base Spring Boot Application
 
 ![Java](https://img.shields.io/badge/Java-17-orange) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.4.2-green) ![Docker](https://img.shields.io/badge/Docker-Ready-blue)
 
@@ -45,8 +45,16 @@ This is a production-ready template for a Spring Boot application that integrate
 
 ### Running with Docker 🐳
 No need to install Java or Maven locally!
+
+**Option 1: Docker Compose (Recommended)**
 ```bash
 docker-compose up --build
+```
+
+**Option 2: Manual Build & Run**
+```bash
+docker build -t synthaispring .
+docker run -p 8080:8080 synthaispring
 ```
 
 ### Running Tests

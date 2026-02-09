@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>springproyect1</artifactId>
+	<artifactId>synthaispring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringProyect1</name>
+	<name>SynthAISpring</name>
 	<description>Base Spring Boot Application with Web, Batch and Test</description>
 	<properties>
 		<java.version>17</java.version>
